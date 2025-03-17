@@ -1,0 +1,8 @@
+ultralytics
+opencv-python-headless
+requests
+pillow
+matplotlib
+numpy
+geopandas
+shapely
