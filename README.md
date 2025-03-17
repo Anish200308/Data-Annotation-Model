@@ -36,7 +36,8 @@ Improve self-learning capabilities through active learning.
 
 This project implements an AI model using YOLOv8 to annotate satellite images from the COCO 2017 dataset directly from the web without downloading files.
 
-File Structure
+📂 File Structure
+The project follows a modular structure to ensure scalability and easy maintenance:
 
 project/
 ├── dataset_loader.py      # Loads COCO dataset
@@ -45,6 +46,14 @@ project/
 ├── requirements.txt       # Dependencies
 ├── config.py              # Configuration file
 └── README.md              # Instructions
+
+dataset_loader.py: Handles loading and preprocessing of the COCO dataset.
+model.py: Contains the YOLO model implementation for object detection and annotation.
+inference.py: Responsible for running inference on input images and visualizing the results.
+requirements.txt: Lists all necessary dependencies to run the project.
+config.py: Stores configuration settings such as model paths, hyperparameters, etc.
+README.md: Project documentation with setup and usage instructions.
+
 
 📦 Installation
 ```bash
