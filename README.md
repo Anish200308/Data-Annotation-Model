@@ -7,24 +7,34 @@ YOLO Object Detection: Utilizes YOLO (You Only Look Once) for fast and accurate 
 Real-time Processing: Image processing and annotation are performed in real time, ensuring fast output.
 Modular Architecture: The system is designed to be scalable and easily extendable.
 High Accuracy: Achieves an annotation accuracy of 95% and a high IoU (Intersection over Union) score of 0.92.
+
 ✅ Key Achievements
 95% annotation accuracy across various datasets.
 40% faster than manual annotation methods.
 0.2 seconds per image for real-time processing.
 High IoU score of 0.92 for bounding boxes.
 Successful processing of complex datasets, including satellite and natural images.
+
 🔍 Technical Highlights
 YOLO Object Detection: Integrated YOLO-based object detection for accurate object identification.
 Real-time Image Processing: Achieved real-time image processing using WebSockets and OpenCV.
 Automated Bounding Boxes: Automatically creates bounding boxes and labels objects in images.
 Preprocessing and Cleaning: Implements a streamlined pipeline for handling structured data.
 Scalable Architecture: Modular design ensures the framework can be easily extended and scaled.
+
 🌟 Future Scope
 Integrate multi-model support (e.g., Faster R-CNN, SSD).
 Enable cloud-based deployment for large-scale processing.
 Extend to 3D data for applications in robotics and autonomous systems.
 Improve self-learning capabilities through active learning.
 
+
+
+
+
+# AI-driven Automated Data Annotation for COCO 2017 Dataset
+
+This project implements an AI model using YOLOv8 to annotate satellite images from the COCO 2017 dataset directly from the web without downloading files.
 
 File Structure
 
@@ -35,11 +45,6 @@ project/
 ├── requirements.txt       # Dependencies
 ├── config.py              # Configuration file
 └── README.md              # Instructions
-
-
-# AI-driven Automated Data Annotation for COCO 2017 Dataset
-
-This project implements an AI model using YOLOv8 to annotate satellite images from the COCO 2017 dataset directly from the web without downloading files.
 
 📦 Installation
 ```bash
