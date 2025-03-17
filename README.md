@@ -39,7 +39,7 @@ This project implements an AI model using YOLOv8 to annotate satellite images fr
 📂 File Structure
 The project follows a modular structure to ensure scalability and easy maintenance:
 
-project/
+```project/
 ├── dataset_loader.py      # Loads COCO dataset
 ├── model.py               # YOLO model for annotation
 ├── inference.py           # Runs inference and visualization
